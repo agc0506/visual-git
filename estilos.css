@@ -1,50 +1,97 @@
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'EB Garamond', serif;
     margin: 0;
     padding: 0;
-    background-color: #fafafa;
-    color: #333;
+    background-color: rgb(6, 0, 92);
+    color: #000000;
 }
 header {
-    background-color:  yellow;
-    color: black;
-    padding: 20px 0;
+    background-color:  #6d5e07 ;
+    color: #cfb002;
+    padding: 20px 0;    
     text-align: center;
+    border-radius: 8px;
+    border: 2px #cfb001;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0); 
 }
 .container {
     width: 80%;
     margin: 20px auto;
     padding: 20px;
-    background: white;
+    background: lightgoldenrodyellow;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgb(202, 202, 1);
 }
 h1 {
     margin: 0;
-    font-size: 2.5em;
+    font-size: 4.5em;
 }
 h2 {
-    font-size: 2em;
-    border-bottom: 2px solid #e74c3c;
+    font-size: 2.5em;
+    border-bottom: 2px solid #000069;
     padding-bottom: 10px;
-    color: #e74c3c;
+    color: #bda102;
+    text-shadow: 1px 1px 2px #ffd900;
 }
 .menu-item {
     margin-bottom: 20px;
 }
 .menu-item h3 {
     margin: 0 0 5px;
-    font-size: 1.5em;
-    color: #e74c3c;
+    font-size: 2em;
+    color: #000069;
+    text-shadow: 1px 1px 2px #0011ff;
 }
 .menu-item p {
     margin: 0;
-    color: #666;
+    color: #000000;
+    font-size: 1.5em;
 }
 footer {
     text-align: center;
     padding: 10px 0;
-    background-color: #444;
-    color: white;
+    background-color: #858f00;
+    color: rgb(5, 0, 0);
     margin-top: 20px;
+    font-size: 1.0em;
 }
+form {
+    background-color: #f8f8f8;  
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px yellow;
+    margin-top: 30px auto;
+    margin: 20px auto;
+    width: 80%;
+}
+
+form label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1.5em;
+    color: #000069;
+}
+
+form input[type="text"],
+form input[type="number"],
+form select,
+form textarea {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 25px;
+    border: 1px solid #9b8c02;
+    border-radius: 5px;
+    font-size: 1.1em;
+}
+
+form input[type="submit"] {
+    background-color: #000069;
+    color: white;
+    border: none;
+    padding: 15px 20px;
+    border-radius: 10px;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+

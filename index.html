@@ -11,19 +11,25 @@
         <h1><b>Restaurante Paragon</b></h1>
         <p>Un ejemplo perfecto de excelencia culinaria</p>
     </header>
-
+    </div>
     <div class="container">
+        <section>
+            <h2>Bienvenidos</h2>
+            <div class="menu-item">
+                <p>Presentamos nuestro menu elegido para la apertura de este prestigioso restaurante, ademas de que al final encontraran un formulario para ver cuanto les emociona esta propuesta.</p>
+            </div>
+        </section>
         <section>
             <h2>Entradas</h2>
             <div class="menu-item">
                 <h3>Tartar de Atún con Aguacate y Mango</h3>
                 <p>Atún fresco, aguacate cremoso, y cubos de mango, servidos con una vinagreta de sésamo y soya.</p>
-                <img src="atun.jpg" width="250" height="200">
+                <img src="atun.jpg" width="250" height="200" style="margin: 20px auto; padding: 10px; background-color: #f0f0f0; display: block;">
             </div>
             <div class="menu-item">
                 <h3>Ensalada Caprese con Burrata</h3>
                 <p>Tomates heirloom de varios colores, burrata cremosa, hojas de albahaca fresca, y reducción de balsámico.</p>
-                <img src="ensalada.jpg" width="250" height="200">
+                <img src="ensalada.jpg" width="250" height="200" style="margin: 20px auto; padding: 10px; background-color: #f0f0f0; display: block;">
             </div>
         </section>
 
@@ -32,17 +38,17 @@
             <div class="menu-item">
                 <h3>Filete de Salmón en Costra de Hierbas</h3>
                 <p>Salmón al horno con una costra de hierbas frescas, acompañado de puré de coliflor y espárragos a la parrilla.</p>
-                <img src="salmon.jpg" width="220" height="220">
+                <img src="salmon.jpg" width="220" height="220" style="margin: 20px auto; padding: 10px; background-color: #f0f0f0; display: block;">
             </div>
             <div class="menu-item">
                 <h3>Raviolis de Hongos con Salsa de Trufa</h3>
                 <p>Raviolis caseros rellenos de una mezcla de hongos silvestres, servidos con una rica salsa de crema de trufa.</p>
-                <img src="ravioli.jpg" width="300" height="220">
+                <img src="ravioli.jpg" width="300" height="220" style="margin: 20px auto; padding: 10px; background-color: #f0f0f0; display: block;">
             </div>
             <div class="menu-item">
                 <h3>Filete Mignon con Salsa de Vino Tinto</h3>
                 <p>Filete mignon cocido al punto deseado, con una reducción de vino tinto, acompañado de papas gratinadas y vegetales asados.</p>
-                <img src="filete.jpg" width="400" height="200">
+                <img src="filete.jpg" width="400" height="200" style="margin: 20px auto; padding: 10px; background-color: #f0f0f0; display: block;">
             </div>
         </section>
 
@@ -51,17 +57,17 @@
             <div class="menu-item">
                 <h3>Cheesecake de Frutos Rojos</h3>
                 <p>Cheesecake clásico con una cobertura de frutos rojos frescos y mermelada de frambuesa.</p>
-                <img src="frutos.jpg" width="320" height="220">
+                <img src="frutos.jpg" width="320" height="220" style="margin: 20px auto; padding: 10px; background-color: #f0f0f0; display: block;">
             </div>
             <div class="menu-item">
                 <h3>Coulant de Chocolate con Helado de Vainilla</h3>
                 <p>Pastelito de chocolate con corazón líquido, servido con una bola de helado de vainilla y salsa de frambuesa.</p>
-                <img src="coulant.jpg" width="320" height="220">
+                <img src="coulant.jpg" width="320" height="220" style="margin: 20px auto; padding: 10px; background-color: #f0f0f0; display: block;">
             </div>
             <div class="menu-item">
                 <h3>Mousse de Maracuyá con Crumble de Almendra</h3>
                 <p>Mousse de maracuyá ligero y aireado, con una base crujiente de crumble de almendra.</p>
-                <img src="mousse.jpg" width="320" height="220">
+                <img src="mousse.jpg" width="320" height="220" style="margin: 20px auto; padding: 10px; background-color: #f0f0f0; display: block;">
             </div>
         </section>
 
@@ -70,19 +76,43 @@
             <div class="menu-item">
                 <h3>Bloody Mary</h3>
                 <p>Un cóctel clásico y sabroso hecho con vodka, jugo de tomate, salsa Worcestershire, jugo de limón, y una pizca de sal y pimienta. Perfecto para acompañar tu brunch.</p>
-                <img src="bloody.jpg" width="320" height="220">
+                <img src="bloody.jpg" width="320" height="220" style="margin: 20px auto; padding: 10px; background-color: #f0f0f0; display: block;">
             </div>
             <div class="menu-item">
                 <h3>Limonada de Lavanda</h3>
                 <p>Limonada casera infusionada con lavanda, servida con hielo.</p>
-                <img src="limonada.jpeg" width="420" height="220">
+                <img src="limonada.jpeg" width="420" height="220" style="margin: 20px auto; padding: 10px; background-color: #f0f0f0; display: block;">
             </div>
         </section>
     </div>
-
-
+    <section>
+        <h2 style="text-align: center;">Opinión sobre nuestro Menú</h2>
+        <form action="mailto: tuNombre@gmail.com" method="post" enctype="text/plain">
+        <fieldset>
+            <label for="nombre">Nombre y apellidos:</label> 
+            <input type="text" id="nombre" name="nombre"><br><br>
+            <label for="edad">Edad:</label>
+            <input type="number" id="edad" name="edad"><br><br>
+            <label for="plato">¿Qué plato te llamo mas la atencion?:</label><br>
+            <select id="plato" name="plato">
+                <option value="">Selecciona un plato</option>
+                <option value="Tartar de Atún con Aguacate y Mango">Tartar de Atún con Aguacate y Mango</option>
+                <option value="Ensalada Caprese con Burrata">Ensalada Caprese con Burrata</option>
+                <option value="Filete de Salmón en Costra de Hierbas">Filete de Salmón en Costra de Hierbas</option>
+                <option value="Raviolis de Hongos con Salsa de Trufa">Raviolis de Hongos con Salsa de Trufa</option>
+                <option value="Filete Mignon con Salsa de Vino Tinto">Filete Mignon con Salsa de Vino Tinto</option>
+                <option value="Cheesecake de Frutos Rojos">Cheesecake de Frutos Rojos</option>
+                <option value="Coulant de Chocolate con Helado de Vainilla">Coulant de Chocolate con Helado de Vainilla</option>
+                <option value="Mousse de Maracuyá con Crumble de Almendra">Mousse de Maracuyá con Crumble de Almendra</option>
+            </select><br><br>
+            <label for="comentario">Comentario:</label><br>
+            <textarea id="comentario" name="comentario" rows="4" cols="50"></textarea><br><br>
+            <input type="submit" value="Enviar">
+        </fieldset>
+        </form>
+    </section>
     <footer>
-        <p>&copy; 2024 Restaurante Paragon. Todos los derechos reservados.</p>
+        <p>¡Espere pronto nuestra gran apertura!</p>
     </footer>
 </body>
 </html>
